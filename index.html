@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
+       <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+   <link href="/css/main.css" rel="stylesheet">
+   <script src="/js/main_script.js"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177505877-1"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'UA-177505877-1');
+   </script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-        body, html {
-          height: 100%;
-          margin: 0;
-        }
-        
-        .bg {
-          /* The image used */
-          background-image: url("garychess.jpg");
-        
-          /* Full height */
-          height: 100%; 
-        
-          /* Center and scale the image nicely */
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
-        </style>
         </head>
 <body>
-<h1>Gary Chess</h1>
-<img src="garychess.jpg" alt="Girl in a jacket">
+   <!-- Navigation Menu -->
+   <div class="dropdown">
+      <div class="container-fluid" onclick="navBar(this)">
+         <div class="bar1"></div>
+         <div class="bar2"></div>
+         <div class="bar3"></div>
+      </div>
+      <div id="myDropdown" class="dropdown-content">
+         <a href="#AboutGaryChess">About Gary Chess</a>
+         <a href="#DLCChess">DLC Chess</a>
+         <a href="#CheckmateKing">Checkmate with a king</a>
+         <a href="#TETG">Theepictallguy</a>
+      </div>
+   </div>
+<div class="jumbotron text-center">
+  <h1>Gary Chess</h1>
+  <p>The true King of chess</p>
+</div>
+<a name = "AboutGaryChess"></a>
+    <img class='resize_fit_center'
+      src="https://theepictallguy.github.io/garychess.jpg" />
+</div>
 </body>
 </html>
