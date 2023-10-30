@@ -168,7 +168,7 @@ ol {
 /* buttons */
 .primary-btn {
   display: inline-block;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Play", sans-serif;
   font-weight: 700;
   padding: 14px 32px 12px;
@@ -560,6 +560,7 @@ ol {
 }
 .work__item .play-btn {
   display: inline-block;
+  background-color:#002ead;
   color: #ffffff;
   font-size: 20px;
   height: 50px;
@@ -1248,6 +1249,7 @@ ol {
 .portfolio__item__video .play-btn {
   display: inline-block;
   color: #ffffff;
+  background-color:#002ead;
   font-size: 20px;
   height: 50px;
   width: 50px;
